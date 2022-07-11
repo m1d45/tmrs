@@ -14,7 +14,7 @@ h1 {
 .phone {
   width: 404px;
   height: 900px;
-  background: url('img/nokia.png') no-repeat center top;
+  background: url('../img/nokia.png') no-repeat center top;
   background-size: 100% auto;
   position: absolute;
   display: block;
@@ -29,7 +29,7 @@ h1 {
   height: 800px;
   margin: 42px auto 0;
   background: #FBFAF8;
-  background-image: url('img/bkg.png');
+  background-image: url('../img/bkg.png');
   padding-top: 50px;
 }
 .btn {
