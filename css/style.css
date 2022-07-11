@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'IBM Plex Serif', serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 340px;
+}
+.phone {
+  width: 404px;
+  height: 900px;
+  background: url('img/nokia.png') no-repeat center top;
+  background-size: 100% auto;
+  position: absolute;
+  display: block;
+  left: calc(50% - 202px);
+  top: 20px;
+  pointer-events: none;
+}
+.screen {
+  position: relative;
+  display: block;
+  width: 360px;
+  height: 800px;
+  margin: 42px auto 0;
+  background: #FBFAF8;
+  background-image: url('img/bkg.png');
+  padding-top: 50px;
+}
+.btn {
+  position: relative;
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #303030;
+  border: 1px dashed #303030;
+  width: 320px;
+  height: 60px;
+  margin: 10px auto 20px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #FBFAF8;
+}
+.statusbar {
+  width: 100%;
+  height: 44px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FBFAF8;
+  font-family: 'Roboto', sans-serif;
+}
+.statusbar span {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 20px;
+  top: 14px;
+  left: 48px;
+}
+.statusbar img {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 20px;
+  top: 14px;
+  right: 20px;
+}
+.homebar {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 72px;
+  bottom: 25px;
+  left: calc(50% - 36px);
+  background: #303030;
+}
